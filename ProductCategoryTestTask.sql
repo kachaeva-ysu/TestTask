@@ -1,0 +1,1 @@
+select p.Name, c.Name from Product p left join ProductCategory pc on pc.ProductId = p.Id left join Category c on pc.CategoryId = c.Id
